@@ -2,7 +2,7 @@
 Finding the closest event on a grid map.
 
 ## To Run
-Please create a java project in eclipse. Copy and paste the 'gridMapElements' folder into the bin. Then run the 'programStart' file.
+Please create a java project in eclipse. Copy and paste the 'gridMapElements' folder into the src. Then run the 'programStart' file.
 
 ## Presumptions:
 I made the chance of an event being at any intersection of the grid 25%
