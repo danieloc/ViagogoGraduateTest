@@ -1,6 +1,9 @@
 # ViagogoGraduateTest
 Finding the closest event on a grid map.
 
+## To Run
+Please create a java project in eclipse. Copy and paste the 'gridMapElements' folder into the bin. Then run the 'programStart' file.
+
 ## Presumptions:
 I made the chance of an event being at any intersection of the grid 25%
 Since there could be events at any intersection and not square of the grid- Instead of the possibilities being (10x10) + (10x10), it was instead (11x11)+(11x11) -1 (-1 so that the (0,0) intersection was not counted twice)
