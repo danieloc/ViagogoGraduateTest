@@ -6,7 +6,7 @@ Please create a java project in eclipse. Copy and paste the 'gridMapElements' fo
 
 ## Presumptions:
 I made the chance of an event being at any intersection of the grid 25%
-Since there could be events at any intersection and not square of the grid- Instead of the possibilities being (10x10) + (10x10), it was instead (11x11)+(11x11) -1 (-1 so that the (0,0) intersection was not counted twice)
+Since there could be events at any intersection and not square of the grid- Instead of the possibilities being (10x10) + (10x10), it was instead (11x11)+(11x11) -1 (There is a -1 becausewe would be counting (0,0) twice otherwise)
 I presumed that since, I had to find the cheapest ticket - there should be different kinds of tickets eg. Standard,Exclusive.
 I presumed, that for easy extensibility in the future, OOD should be implemented.
 
